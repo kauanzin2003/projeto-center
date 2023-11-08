@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Jomhuria;
+    box-sizing: border-box;
+}
+body{
+    background-color:#c948e2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    min-height: 400px;
+    max-width: 700px;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+.form{
+    color: #fff;
+    background-color: rgba(0,0,0,.9);
+    padding: 2rem;
+    border-radius: .5rem;
+    transition: all .5s ease;
+}
+.input[type="text"], input[type="email"] {
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border:none;
+    border-bottom: 3px solid transparent;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: all .5s ease;
+    border-radius:5px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    width: 50%;
+    padding: 1rem;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all .5s ease;
+}
+input[type="submit"]:hover{
+    background-color: #fedd31;
+}
+::placeholder{
+    color:rgba(255,255,255,.5) !important;
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 90%;
+        }
+}
