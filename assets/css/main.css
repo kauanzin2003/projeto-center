@@ -1,0 +1,34 @@
+ @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+ @import "navbar";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Jomhuria', serif;
+    color: black;
+    border: none;
+}
+
+body{
+    height: 100vh;
+    background-color: #EDEFFF;
+}
+
+.font{
+    font-size: 3rem;
+}
+
+.bg-primary-color{
+    background-color: #EDEFFF;
+    border: none;
+}
+
+.bg-second-color{
+    background-color: #CFC7FF;
+}
+
+.cladio{
+    border: none;
+}
