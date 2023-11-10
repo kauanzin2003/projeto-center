@@ -49,7 +49,10 @@ body{
 
 h1.text{
     color: black;
-    font-size: 128px;
+    font-size: 100px;
+    margin-left: 150px;
+    position: relative;
+    margin-bottom: 76px;
 }
 
 .obj1{
@@ -60,4 +63,29 @@ h1.text{
     width: 350px;
     height: 450px;
     border-radius: 15%;
+}
+
+.obj2{
+    top: 300px;
+    margin-left: 110px;
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    border-radius: 15%;
+}
+
+.obj3{
+    right: 450px;
+    top: 300px;
+    margin-left: 110px;
+    background-color: white;
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    border-radius: 15%;
+}
+
+.geral{
+
 }
