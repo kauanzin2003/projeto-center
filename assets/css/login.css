@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#c948e2;
+    background-color:#CFC7FF;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body{
 }
 .form{
     color: #fff;
-    background-color: rgba(0,0,0,.9);
+    background-color: #AD9FFF;
     padding: 2rem;
     border-radius: .5rem;
     transition: all .5s ease;
