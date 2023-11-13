@@ -20,3 +20,45 @@ body{
     overflow: hidden;
     text-align:center;
 }
+.form{
+    color: #fff;
+    background-color: #AD9FFF;
+    padding: 2rem;
+    border-radius: .5rem;
+    transition: all .5s ease;
+}
+.input[type="text"], input[type="email"] {
+    width: 50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border:none;
+    border-bottom: 3px solid transparent;
+    letter-spacing: 1px;
+    font-size: 16px;
+    transition: all .5s ease;
+    border-radius:5px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    width: 50%;
+    padding: 1rem;
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all .5s ease;
+}
+input[type="submit"]:hover{
+    background-color: #fedd31;
+}
+::placeholder{
+    color:rgba(255,255,255,.5) !important;
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 90%;
+        }
+}
