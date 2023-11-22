@@ -122,3 +122,20 @@ h2{
 .slider .card .price{
     display: flex;
 }
+
+.slider .card a.button{
+    color: #7ac402;
+    border: 1px solid #7ac402;
+    border-radius: 30px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    margin-bottom: 0.8rem;
+}
+
+.slider .card a.button:hover{
+    color: #ffffff;
+    background-color: #7ac402;
+
+}
