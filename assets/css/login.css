@@ -7,5 +7,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color:#F5F6FA;
+    background-color:#CFC7FF;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
