@@ -6,29 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/login.css">
 </head>
 
 <body>
   <main>
 
-    <div class="w3-container w3-padding-32" id="contact">
-      <h2 class="w3-wide w3-center"><img src="assets/images/Logo Market center.png" alt=""></h2>
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-        <label for="password">Senha</label>
-        <input type="password" name="password" id="password">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> ENVIAR
-      </button>
-      </form>
-    </div>
+    <section class="area-login">
+      <div class="login">
+        <div>
+          <img src="assets/images/Logo Market center.png" alt=""></div>
 
-    <p class="lead">Não tem conta?Clique Aqui <a href="/cadastro.html">Cadastre-se</a></p>
+        <form action="#" method="post">
+          <input type="text" name="user" placeholder="Usuario" autofocus required>
+          <input type="password" name="password" placeholder="Senha" autofocus required><br>
+          <center><button type="submit" style="border-radius: 30px; width: 50%; justify-content: center; background-color:black; color:#fff">Entrar</button></center>
+        </form><br>
+        <p>Não tem conta?Clique Aqui <a href="/cadastro.html"> Cadastre-se</a></p>
+      </div>
+    </section>
+
   </main>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 </body>
 
 </html>
